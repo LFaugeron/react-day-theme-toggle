@@ -24,7 +24,7 @@ Using yarn:
 
 <h2>Working with it</h2>
 
-<p>The module exports a component called ThemeContextProvider, that has to wrap your application and provides those two values : {theme, setTheme}.
+<p>The module exports a component called ThemeContextProvider, that has to wrap your application and provides those two values : {theme, setTheme}, the theme value is a boolean and can be <span style="font-weight: bold">false (for day) / true (for night)</span>.
 So first, wrap your app inside the component ThemeContextProvider.
 </p>
 
