@@ -93,7 +93,10 @@ export default Header;
 <br/>
 
 <h5>Default</h5>
+<br/>
 
-![image](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/779083ed-89e2-4459-abea-e75f2392b7a7)
+![image](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/6322b1cb-0807-46f6-8abe-9c8f024ca0f4)
 ![image](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/5a1ab074-cc18-4dbe-a3a5-9303a0c54c9f)
-![2023-05-30 14-55-42](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/50ba04c1-a937-4150-81c8-6a761f0e7f54)
+
+https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/aa3cd01e-6d55-4d6a-86c2-782faecb6f12
+
