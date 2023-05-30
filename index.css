@@ -195,6 +195,12 @@
     width: 5%;
 }
 
+.five {
+    left : 23%;
+    top: 42%;
+    width: 6%;
+}
+
 .hid {
     transform: translateY(-500%);
     opacity: 0;

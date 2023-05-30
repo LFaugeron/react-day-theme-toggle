@@ -25,6 +25,7 @@ const DayNightToggle = () => {
             <div className={!theme ? "stars hid two" : "stars two"}></div>
             <div className={!theme ? "stars hid three" : "stars three"}></div>
             <div className={!theme ? "stars hid four" : "stars four"}></div>
+            <div className={!theme ? "stars hid five" : "stars five"}></div>
             <div className={!theme ? "cloud o" : "cloud o hidd"}></div>
             <div className={!theme ? "cloud t" : "cloud t hidd"}></div>
             <div className={!theme ? "cloud th" : "cloud th hidd"}></div>
