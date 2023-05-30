@@ -1,0 +1,14 @@
+{
+  "name": "react-day-theme-toggle",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Faugeron <lucas.faugeron56320@gmail.com> (https://www.npmjs.com/~mrlsultimate)",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
