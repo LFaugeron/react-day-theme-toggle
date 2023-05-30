@@ -1,12 +1,12 @@
 <h1 style="text-align: center; color: #48bb37">React Day Theme Toggle</h1>
-<hr>
+
 <h4 style="text-align: center">A beautiful <span style="color: #48bb37">day / night</span> theme toggle with his context for your react application</h4>
 
 <h5>Versions</h5>
-[![Npm package version](https://badgen.net/npm/v/npm)](https://npmjs.com/package/react-day-theme-toggle)
+<h6>NPM : 9.6.7</h6>
 
 <h5>Dependencies</h5>
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+<h6>React : 18.2.0</h6>
 
 <hr>
 
@@ -97,6 +97,5 @@ export default Header;
 
 ![image](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/95939653-ea3b-4239-9b35-f24123c12348)
 ![image](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/9d00bed2-a499-46e4-8f83-bc5ea3bdeaba)
-
-https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/aa3cd01e-6d55-4d6a-86c2-782faecb6f12
+![2023-05-30-14-55-42](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/6af5784d-f2b4-40a7-add4-ed9405102a28)
 
