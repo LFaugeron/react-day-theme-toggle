@@ -95,8 +95,8 @@ export default Header;
 <h5>Default</h5>
 <br/>
 
-![image](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/6322b1cb-0807-46f6-8abe-9c8f024ca0f4)
-![image](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/5a1ab074-cc18-4dbe-a3a5-9303a0c54c9f)
+![image](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/95939653-ea3b-4239-9b35-f24123c12348)
+![image](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/9d00bed2-a499-46e4-8f83-bc5ea3bdeaba)
 
 https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/aa3cd01e-6d55-4d6a-86c2-782faecb6f12
 
