@@ -1,6 +1,6 @@
-import React, {useState, createContext, useContext} from 'react';
+import React from 'react';
 import './index.css'
-import ThemeContext, {useThemeContext} from "./ThemeContextProvider";
+import {useThemeContext} from "./ThemeContextProvider";
 
 
 
