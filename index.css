@@ -63,7 +63,7 @@
     width: 30%;
     height: 30%;
     border-radius: 50%;
-    background: #778081;
+    background: #686e6e;
     position: absolute;
     top: 20%;
     left: 20%;
@@ -74,7 +74,7 @@
     width: 35%;
     height: 35%;
     border-radius: 50%;
-    background: #778081;
+    background: #686e6e;
     position: absolute;
     top: 50%;
     left: 45%;
@@ -209,6 +209,142 @@
 .hidd {
     opacity: 0;
     transform: translateY(500%);
+}
+
+.hidde {
+    transform: translateX(150%);
+}
+
+.desert {
+    background: #da9434;
+}
+
+.desertsun {
+    background: #d07b1d;
+}
+
+
+.img {
+    position: absolute;
+    width: 70%;
+    right: -2%;
+    top: 27%;
+    transform: rotate(-8deg) translateY(0);
+    transition: 1s ease;
+    clip-path: polygon(0% 30%, 100% 30%, 100% 100%, 0% 100%);
+}
+
+.imgdark {
+    position: absolute;
+    width: 75%;
+    left: -2%;
+    top: 23%;
+    transform: rotate(8deg) translateY(0);
+    transition: 1s ease;
+    clip-path: polygon(0% 30%, 100% 30%, 100% 100%, 0% 100%);
+    filter: hue-rotate(180deg) brightness(0.6);
+    z-index: 1;
+}
+
+.cactus {
+    position: absolute;
+    width: 10%;
+    right: 15%;
+    top: 74%;
+    transform: translateY(0);
+    transition: 1s ease;
+    opacity: 1;
+    filter: hue-rotate(280deg);
+
+}
+
+.cactusdark {
+    position: absolute;
+    width: 10%;
+    left: 15%;
+    top: 74%;
+    transform: translateX(0);
+    transition: 1s ease;
+    opacity: 1;
+    filter: hue-rotate(130deg) brightness(0.7);
+    z-index: 2;
+}
+
+.sec {
+    width: 15%;
+    transform: scaleX(-1);
+    left: 30%;
+    top: 63%;
+}
+
+.second {
+    width: 15%;
+    transform: scaleX(-1);
+    right: 30%;
+    top: 63%;
+}
+
+.deserthidde {
+    transform: translateX(300%);
+}
+
+.deserthidden {
+    transform: translateX(300%) scaleX(-1);
+}
+
+
+.deserthid {
+    transform: translateX(100%) rotate(-8deg);
+}
+
+.desertdarkhid {
+    transform: translateX(-100%) rotate(8deg);
+}
+
+.desertdarkhidde {
+    transform: translateX(-300%) scaleX(-1);
+}
+
+.desertdarkhidden {
+    transform: translateX(-300%);
+}
+
+
+.desertdark {
+    background: #143562;
+}
+
+.moondesert {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1/1;
+    background: rgba(255, 255, 255, 0.98);
+    border-radius: 50%;
+    transform: translateX(0%);
+    box-shadow: inset 1px 2px 10px 1px #FFFFFF, inset -1px -1px 18px -3px #000000;
+    transition: 1s ease;
+}
+
+.moondesert:after {
+    content: "";
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background: #4c4f4f;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.moondesert:before {
+    content: "";
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+    background: #4c4f4f;
+    position: absolute;
+    top: 50%;
+    left: 45%;
 }
 
 .hidde {
