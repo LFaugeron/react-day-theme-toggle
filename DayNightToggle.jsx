@@ -48,7 +48,7 @@ const DayNightToggle = ({style = "classic"}) => {
                 <div className={!theme ? "arc le" : "arc ri"}></div>
                 <div className={!theme ? "arc deux lee" : "arc deux rii"}></div>
                 <div className={!theme ? "arc trois leee" : "arc trois riii"}></div>
-                <div className={!theme ? "desertsun left" : "desertsun right hidden"}>
+                <div className={!theme ? "sun desertsun left" : "sun desertsun right hidden"}>
                     <div className={!theme ? "moondesert hidde" : "moondesert"}></div>
                 </div>
 
