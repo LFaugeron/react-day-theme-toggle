@@ -77,7 +77,7 @@ import DayNightToggle from "react-day-theme-toggle/DayNightToggle";
 const Header = () => {
     return (
         <div>
-            <DayNightToggle/>
+            <DayNightToggle style={"classic"}/>
         </div>
     );
 };
@@ -93,9 +93,18 @@ export default Header;
 <br/>
 
 <h5>Default</h5>
+<p>use this props : style={"classic"}</p>
 <br/>
 
 ![image](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/95939653-ea3b-4239-9b35-f24123c12348)
 ![image](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/9d00bed2-a499-46e4-8f83-bc5ea3bdeaba)
 ![2023-05-30-14-55-42](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/6af5784d-f2b4-40a7-add4-ed9405102a28)
 
+<br/>
+<h5>Desert</h5>
+<p>use this props : style={"desert"}</p>
+<br/>
+
+![image](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/003b4cfd-52e6-455f-86c6-54d9c808f5b8)
+![image](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/c0a0adda-9a6d-46b4-8cc8-4c03dc9c0a4e)
+![2023-05-31-11-13-43](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/2215cd96-2bc3-4845-957e-d40d77951555)
