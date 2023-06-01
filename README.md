@@ -108,3 +108,13 @@ export default Header;
 ![image](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/003b4cfd-52e6-455f-86c6-54d9c808f5b8)
 ![image](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/c0a0adda-9a6d-46b4-8cc8-4c03dc9c0a4e)
 ![2023-05-31-11-13-43](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/2215cd96-2bc3-4845-957e-d40d77951555)
+
+
+<br/>
+<h5>Minimalist</h5>
+<p>use this props : style={"minimalist"}</p>
+<br/>
+
+![image](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/5f649e0a-7242-41a4-9ca3-7e2e7a0111a1)
+![image](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/f9be0ee2-6a65-4f15-b2a8-0b9b31a886c4)
+![2023-06-01 15-53-13](https://github.com/LFaugeron/react-day-theme-toggle/assets/124144103/9d235c1c-68a2-41b1-a39c-ea1fa763ca33)
