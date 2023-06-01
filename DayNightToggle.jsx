@@ -3,6 +3,7 @@ import './index.css'
 import {useThemeContext} from "./ThemeContextProvider";
 import dune from "./assets/dune.png"
 import cactus from "./assets/cactus.png"
+import moon from "./assets/moon.png"
 
 
 
@@ -59,7 +60,28 @@ const DayNightToggle = ({style = "classic"}) => {
                 <div className={!theme ? "stars hid five" : "stars five"}></div>
             </div>
         )
-    } else {
+    } else if (style === "minimalist") {
+        return (
+            <div className={!theme ? "theme white" : "theme dark"} onClick={changeTheme}>
+                <div className={!theme ? "sunicon left" : "sunicon right"}>
+                    <div className="relativeparent">
+                        <div className={!theme ? "suniconcenter" : "suniconcenter minimalistehidden"}></div>
+                        <div className={!theme ? "triangle" : "triangle minimalistehidden"} id="un"></div>
+                        <div className={!theme ? "triangle" : "triangle minimalistehidden"} id="deux"></div>
+                        <div className={!theme ? "triangle" : "triangle minimalistehidden"} id="trois"></div>
+                        <div className={!theme ? "triangle" : "triangle minimalistehidden"} id="quatre"></div>
+                        <div className={!theme ? "triangle" : "triangle minimalistehidden"} id="cinq"></div>
+                        <div className={!theme ? "triangle" : "triangle minimalistehidden"} id="six"></div>
+                        <div className={!theme ? "triangle" : "triangle minimalistehidden"} id="sept"></div>
+                        <div className={!theme ? "triangle" : "triangle minimalistehidden"} id="huit"></div>
+                        <img src={moon} alt="moon" className={!theme ? "moonimg minimalistehidden" : "moonimg"}/>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+
+    else {
         return null
     }
 };
