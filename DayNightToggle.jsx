@@ -79,6 +79,25 @@ const DayNightToggle = ({style = "classic"}) => {
                 </div>
             </div>
         )
+    } else if (style === "second_minimalist") {
+        return (
+            <div className={!theme ? "theme white" : "theme dark"} onClick={changeTheme}>
+                <div className={!theme ? "sunicon left dark" : "sunicon right white"}>
+                    <div className="relativeparent">
+                        <div className={!theme ? "suniconcenter white" : "suniconcenter white    minimalistehidden"}></div>
+                        <div className={!theme ? "triangle white" : "triangle white minimalistehidden"} id="un"></div>
+                        <div className={!theme ? "triangle white" : "triangle white minimalistehidden"} id="deux"></div>
+                        <div className={!theme ? "triangle white" : "triangle white minimalistehidden"} id="trois"></div>
+                        <div className={!theme ? "triangle white" : "triangle white minimalistehidden"} id="quatre"></div>
+                        <div className={!theme ? "triangle white" : "triangle white minimalistehidden"} id="cinq"></div>
+                        <div className={!theme ? "triangle white" : "triangle white minimalistehidden"} id="six"></div>
+                        <div className={!theme ? "triangle white" : "triangle white minimalistehidden"} id="sept"></div>
+                        <div className={!theme ? "triangle white" : "triangle white minimalistehidden"} id="huit"></div>
+                        <img src={moon} alt="moon" className={!theme ? "moonimg minimalistehidden" : "moonimg"}/>
+                    </div>
+                </div>
+            </div>
+        )
     }
 
     else {
