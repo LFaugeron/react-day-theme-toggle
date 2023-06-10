@@ -1,6 +1,6 @@
 {
   "name": "react-day-theme-toggle",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5"
   }
 }
