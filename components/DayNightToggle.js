@@ -1,9 +1,9 @@
 import React from 'react';
-import './index.css'
+import '../index.css'
 import {useThemeContext} from "./ThemeContextProvider";
-import dune from "./assets/dune.png"
-import cactus from "./assets/cactus.png"
-import moon from "./assets/moon.png"
+import dune from "../assets/dune.png"
+import cactus from "../assets/cactus.png"
+import moon from "../assets/moon.png"
 
 
 
